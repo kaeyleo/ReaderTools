@@ -1,0 +1,57 @@
+/**
+*  Reader Tools Components Style
+*/
+.reader-tools-wrapper {
+    position: fixed;
+    right: 0;
+    bottom: 26%;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(0, 0, 0, .8);
+    box-shadow: -2px 0 8px rgba(0, 0, 0, .2);
+    z-index: 100;
+    transition: .3s;
+    overflow: hidden;
+}
+.reader-tools-panel {
+    margin: 0;
+    padding: 0;
+}
+.reader-tools-panel li {
+    position: relative;
+    padding: 18px 0;
+    width: 66px;
+    color: #fff;
+    text-align: center;
+    list-style-type: none;
+    transition: .3s;
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    &:active {
+        
+    }
+    &:first-child {
+        padding-bottom: 6px;
+    }
+    &:last-child {
+        padding-top: 6px;
+    }
+    .iconfont {
+        font-size: 24px;
+        opacity: .5;
+    }
+}
+
+// Night mode
+.reader-tools-night {
+    background-color: rgba(255, 255, 255, .4);
+    li {
+        color: #000;
+    }
+}
