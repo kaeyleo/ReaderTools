@@ -1,12 +1,16 @@
 # ReaderTools
 
-一款小而美的博客插件，简单轻量无依赖。
+一款小而美的移动端web博客插件，简单轻量无依赖。
 
 A tiny js lib to create reader tools for your website. No dependencies.
 
-[DEMO](http://liaokeyu.com/readerTools)
+[DEMO](http://liaokeyu.com/readerTools) 
 
 ![](review.gif)
+
+该插件仅支持移动端web应用，请使用手机查看：
+
+![](qrcode.png)
 
 ## Features
 
