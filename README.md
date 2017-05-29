@@ -8,4 +8,3 @@ A tiny js lib to create reader tools for your website. No dependencies.
 
 - Day-night Mode 夜间模式
 - Scroll to top 返回顶部
-- 文章打赏

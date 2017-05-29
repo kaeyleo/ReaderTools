@@ -13,7 +13,7 @@ gulp.task('sass', function(){
         .pipe(sass())
         .pipe(cleanCSS())
         .pipe(rename({ 
-            basename: 'reader-tools',
+            basename: 'readerTools',
             suffix: '.min' 
         }))
         .pipe(gulp.dest('./dist/css'))
@@ -27,7 +27,7 @@ gulp.task('js', function(){
     gulp.src('./src/js/app.js')
         .pipe(uglify())
         .pipe(rename({ 
-            basename: 'reader-tools',
+            basename: 'readerTools',
             suffix: '.min'
         }))
         .pipe(gulp.dest('./dist/js'))
@@ -57,7 +57,7 @@ gulp.task('server', function(){
  * Watcher
  */
 gulp.task('watch', ['server'], function (){
-    gulp.watch('demo/*.html', ['html']);
+    gulp.watch(['demo/*.html', 'src/*'], ['html']);
     gulp.watch('src/sass/*', ['sass']);
     gulp.watch('src/js/*', ['js']);
 });

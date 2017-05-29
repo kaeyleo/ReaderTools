@@ -5,21 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReaderTools</title>
     <link rel="stylesheet" href="//at.alicdn.com/t/font_y9cm7lu8dnpqr529.css">
-    <link rel="stylesheet" href="../dist/css/reader-tools.min.css">
+    <link rel="stylesheet" href="../dist/css/readerTools.min.css">
     <style>
-        .data-bar {
-            position: fixed;
-            top: 0;
-            right: 10%;
-            width: 160px;
-            padding: 6px 0;
-            border-radius: 0 0 5px 5px;
-            font-size: 18px;
-            font-weight: lighter;
-            color: #fff;
-            text-align: center;
-            background-color: rgba(0, 0, 0, .8);
-            z-index: 100;
+        body {
+            margin: 0;
+            font-family: -apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
         }
         .page {
             position: absolute;
@@ -27,7 +17,6 @@
             left: 0;
             padding: 32px 24px;
             background-color: #EEE8E5;
-            /*background-color: #333;*/
         }
         h2 {
             margin: 60px 0 30px;
@@ -42,45 +31,11 @@
             width: 100%;
             margin-top: -8px;
             margin-bottom: 12px;
+            /*-webkit-filter:brightness(.7);*/
         }
-        
-        /*.reader-tools-wrapper {
-            position: fixed;
-            bottom: 30%;
-            right: -50px;
-            right: 0px;
-            width: 60px;
-            border-radius: 5px 0 0 5px;
-            background-color: rgba(0, 0, 0, .8);
-            z-index: 100;
-            transition: .3s;
-        }
-        .reader-tools-panel {
-            margin: 0;
-            padding: 0;
-            text-align: center
-        }
-        .reader-tools-panel li {
-            list-style: none;
-            color: #fff;
-            font-weight: lighter;
-            padding: 12px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, .3);
-        }
-        .reader-tools-panel li:last-child {
-            border-bottom: none;
-        }*/
     </style>
 </head>
 <body>
-    <span class="data-bar" id="show">X: 0, Y: 0</span>
-    <div class="reader-tools-wrapper">
-        <ul class="reader-tools-panel" id="reader-tools">
-            <li data-action="jump-top"><i class="iconfont icon-top"></i></li>
-            <li data-action="day-mode"><i class="iconfont icon-moon"></i></li>
-            <li data-action="day-mode"><i class="iconfont icon-sun"></i></li>
-        </ul>
-    </div>
     <div class="page">
         <h2>Weekly Inspiration for Designers</h2>
         <p class="post">
@@ -88,10 +43,10 @@
             >
             <img src="beach.jpeg" alt="">
             Portland ugh fashion axe Helvetica, YOLO Echo Park Austin gastropub roof party. Meggings cred before they sold out messenger bag, ugh fashion axe Pitchfork tousled freegan asymmetrical literally twee Thundercats. Whatever Blue Bottle Neutra irony 8-bit. Kogi ethnic ugh fashion axe bicycle rights. Gluten-free Odd Future American Apparel pour-over umami drinking vinegar Truffaut. Selvage sustainable plaid viral salvia readymade, lomo slow-carb before they sold out bitters leggings. 90's pickled actually biodiesel put a bird on it, butcher dreamcatcher Cosby sweater.<br><br>
+            <img src="http://qiniuimg.qingmang.mobi/image/orion/7bc7dc818260311d64f61c26a9f6229b_960_291.jpeg" alt="">
             Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus.<br><br>
-           
         </p>
     </div>
-    <script src="../dist/js/reader-tools.min.js"></script>
+    <script src="../dist/js/readerTools.min.js"></script>
 </body>
 </html>

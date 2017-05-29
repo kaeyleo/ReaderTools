@@ -1,15 +1,16 @@
 /**
-*  Reader Tools Components Style
+*  ReaderTools Style
 */
 .reader-tools-wrapper {
     position: fixed;
-    right: 0;
+    right: -70px;
     bottom: 26%;
+    color: #fff;
     border-radius: 5px 0 0 5px;
     background-color: rgba(0, 0, 0, .8);
-    box-shadow: -2px 0 8px rgba(0, 0, 0, .2);
+    box-shadow: -2px 0 6px rgba(0, 0, 0, .3);
     z-index: 100;
-    transition: .3s;
+    transition: 'background-color' .6s cubic-bezier(0.4, 0, 1, 1), color .5s cubic-bezier(0.4, 0, 1, 1), right .2s;
     overflow: hidden;
 }
 .reader-tools-panel {
@@ -20,7 +21,6 @@
     position: relative;
     padding: 18px 0;
     width: 66px;
-    color: #fff;
     text-align: center;
     list-style-type: none;
     transition: .3s;
@@ -45,13 +45,5 @@
     .iconfont {
         font-size: 24px;
         opacity: .5;
-    }
-}
-
-// Night mode
-.reader-tools-night {
-    background-color: rgba(255, 255, 255, .4);
-    li {
-        color: #000;
     }
 }
