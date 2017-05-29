@@ -122,7 +122,7 @@ var readerTools = (function(){
 
         var timer = setInterval(function() {
             if(window.scrollY>0) {
-                window.scrollBy(0, -100);
+                window.scrollBy(0, -50);
             }else{
                 clearInterval(timer);
             }
@@ -203,6 +203,3 @@ var readerTools = (function(){
     }
 
 })();
-
-var el = document.querySelector('.page');
-readerTools.init(el);
