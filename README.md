@@ -4,7 +4,7 @@
 
 A tiny js lib to create reader tools for your website. No dependencies.
 
-[DEMO](http://liaokeyu.com/readerTools) 
+[DEMO](http://liaokeyu.com/readerTools)
 
 ![](review.gif)
 
