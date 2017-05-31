@@ -162,13 +162,13 @@ var readerTools = (function(){
 
         }
 
-        this.imgFilter();
+        this.changePicBrightness();
     };
 
     /**
      * images filter
      */
-    ReaderTools.prototype.imgFilter = function() {
+    ReaderTools.prototype.changePicBrightness = function() {
         var imgs = this.el.getElementsByTagName('img');
 
         for(var i=0; i<imgs.length; i++) {
